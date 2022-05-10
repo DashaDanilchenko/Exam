@@ -1,0 +1,73 @@
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 800px;  
+    }
+    .container_photo {
+        justify-content: center;
+    }
+    .info_shopping {
+        margin-top: 100px;
+    }
+}
+@media (min-width:400px) and (max-width:800px) {
+    .container {
+        width: 400px;  
+    }
+    .pad {
+        padding: 50px 0;
+    }
+    .top {
+        margin-top: 30px;
+    }
+    .none {
+        display: none;
+    }
+    .scale {
+        width: 300px;
+        height: 380px;
+    }
+    header {
+        width: 150px;
+        height: 30px;
+        margin-top: 20px;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        left: 20px;
+        z-index: 1;
+    }
+    header:hover {
+        height: 280px; 
+    }
+    header .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header .menu>div {
+        margin: 10px;
+        opacity: 0;
+    }
+    header:hover .menu>div {
+        opacity: 1;
+    }
+    header .menu .card {
+        margin-left: 20px;
+    }
+    .tagline {
+        position: relative;
+        margin-top: 50px;
+    }
+    .button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button>div {
+        margin-bottom: 10px;
+    }
+    footer {
+        flex-direction: column;
+    }
+}
+
+
